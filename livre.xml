@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./livre.xsl"?>
+<?xml-model href="./livre.rnc" type="application/relax-ng-compact-syntax"?>
+<bibliotheque>
+    <livre langue="FR">
+        <auteurs ident="author_3"></auteurs>
+        <titre>Harry Potter à l'école des sorciers</titre>
+        <annee>1997</annee>
+        <prix>
+            <valeur>19.56</valeur>
+            <monnaie>EUR</monnaie>
+        </prix>
+        <couverture>https://images-na.ssl-images-amazon.com/images/I/51PHEMHZZ8L._SX346_BO1,204,203,200_.jpg</couverture>
+        <film>https://www.youtube.com/watch?v=eKSB0gXl9dw </film>
+        <commentaire>Premier d'une longue série de 7 livres tous adapter en film.</commentaire>
+        <personnage>
+            <nom>Potter</nom>
+            <prenom>Harry</prenom>
+        </personnage>
+    </livre>
+    
+    <livre langue="ENG">
+        <auteurs ident="author_1"></auteurs>
+        <titre>Le Petit Prince</titre>
+        <annee>1943</annee>
+        <prix>
+            <valeur>15.35</valeur>
+            <monnaie>CAD</monnaie>
+        </prix>
+        <couverture>https://images-na.ssl-images-amazon.com/images/I/51364NhwLoL._SX329_BO1,204,203,200_.jpg</couverture>
+        <film>http://www.allocine.fr/film/fichefilm_gen_cfilm=178545.html </film>
+        <commentaire>Série de télévision existe aussi!</commentaire>
+        <personnage>
+            <nom></nom>
+            <prenom>Le Petit Prince</prenom>
+        </personnage>
+        <personnage>
+            <nom></nom>
+            <prenom>La Rose</prenom>
+        </personnage>
+        <personnage>
+            <nom></nom>
+            <prenom>Le Renard</prenom>
+        </personnage>
+    </livre>
+    
+    <livre langue="FR">
+        <auteurs ident="author_3"></auteurs>
+        <titre>Harry Potter et la Coupe de feu</titre>
+        <annee>2000</annee>
+        <prix>
+            <valeur>15.35</valeur>
+            <monnaie>EUR</monnaie>
+        </prix>
+    </livre>
+    <livre langue="FR">
+        <auteurs ident="author_3"></auteurs>
+        <titre>Harry Potter et le Prince de sang-mêlé</titre>
+        <annee>2005</annee>
+        <prix>
+            <valeur>15.35</valeur>
+            <monnaie>EUR</monnaie>
+        </prix>
+    </livre>
+    <livre langue="FR">
+        <auteurs ident="author_4"></auteurs>
+        <titre>L'Apprenti Épouvanteur</titre>
+        <annee>2004</annee>
+        <prix>
+            <valeur>12.95</valeur>
+            <monnaie>CAD</monnaie>
+        </prix>
+        <couverture>http://www.renaud-bray.com/ImagesEditeurs/PG/2189/2189733-gf.jpg</couverture>
+        <film>N/A</film>
+        <commentaire>Livre de la série L'Épouvanteur</commentaire>
+        <personnage>
+            <nom>Ward</nom>
+            <prenom>Thomas</prenom>
+        </personnage>
+        <personnage>
+            <nom>Gregory</nom>
+            <prenom>John</prenom>
+        </personnage>
+    </livre>
+    <livre langue="ENG">
+        <auteurs ident="author_3"></auteurs>
+        <titre>Harry Potter et les Reliques de la Mort</titre>
+        <annee>2007</annee>
+        <prix>
+            <valeur>23.36</valeur>
+            <monnaie>CAD</monnaie>
+        </prix>
+    </livre>
+    <livre langue="ENG">
+        <auteurs ident="author_2"></auteurs>
+        <titre>Porteur de masques</titre>
+        <annee>2003</annee>
+        <prix>
+            <valeur>12.00</valeur>
+            <monnaie>CAD</monnaie>
+        </prix>
+    </livre>
+    <auteur ident="author_1">
+        <prenom>Antoine</prenom>
+        <nom>de Saint-Exupéry</nom>
+        <pays>France</pays>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/7/7f/11exupery-inline1-500.jpg</photo>
+        <commentaire> French writer, poet, aristocrat, journalist, and pioneering aviator.</commentaire>
+    </auteur>
+    <auteur ident="author_2">
+        <nom>Perro</nom>
+        <prenom>Bryan</prenom>
+        <pays>Canada</pays>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/a/a7/Bryan_Perro_2012-04-13.jpg</photo>
+        <commentaire>Il est un écrivain, un éditeur et un libraire québécois.</commentaire>
+    </auteur>
+    <auteur ident="author_3">
+        <nom>Rowling</nom>
+        <prenom>Joanne</prenom>
+    </auteur>
+    <auteur ident="author_4">
+        <nom>Delaney</nom>
+        <prenom>Joseph</prenom>
+    </auteur>
+</bibliotheque>
